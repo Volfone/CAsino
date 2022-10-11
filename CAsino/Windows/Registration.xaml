@@ -1,0 +1,20 @@
+﻿<Window x:Class="CAsino.Windows.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CAsino.Windows"
+        mc:Ignorable="d"
+        Title="Registration" Height="450" Width="800">
+    <Grid>
+        <StackPanel Background="#FFDADADA" Width="400" Height="228" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock TextWrapping="Wrap" Text="Name" Width="380" Margin="10,10,10,0"/>
+            <TextBox x:Name="NameTB" TextWrapping="Wrap" Width="380" Margin="10,10,10,0"/>
+            <TextBlock TextWrapping="Wrap" Text="Login" Margin="10,10,10,0"/>
+            <TextBox x:Name="LoginTB" TextWrapping="Wrap" Width="380" Margin="10,10,10,0"/>
+            <TextBlock TextWrapping="Wrap" Text="Password" Margin="10,10,10,0"/>
+            <TextBox x:Name="PasswordTB" TextWrapping="Wrap" Width="380" Margin="10,10,10,0"/>
+            <Button x:Name="RegistrationBtn" Content="Registration" Width="380" Margin="10,10,10,0" Click="RegistrationBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

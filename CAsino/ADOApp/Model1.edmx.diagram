@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="84a9857e9cc84b76b51d1a9e517521a9" Name="Diagram1">
+        <EntityTypeShape EntityType="DBBDModel.Balances" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBDModel.Crits" Width="1.5" PointX="3.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBDModel.Invent" Width="1.5" PointX="6" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBDModel.InventItems" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBDModel.Items" Width="1.5" PointX="6" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBDModel.Logins" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBDModel.Phots" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBDModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBDModel.Users" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="DBBDModel.FK_Balances_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBDModel.FK_Invent_Crits" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBDModel.FK_Invent_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBDModel.FK_InventItems_Invent" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBDModel.FK_InventItems_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBDModel.FK_Logins_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBDModel.FK_Phots_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
